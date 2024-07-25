@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@nuxt/ui": "^2.16.0",
+    "@nuxtjs/supabase": "^1.2.2",
+    "@pinia/nuxt": "^0.5.1",
+    "@vuepic/vue-datepicker": "^8.7.0",
+    "credit-card-type": "^10.0.1",
+    "flowbite": "^2.3.0",
+    "mitt": "^3.0.1",
+    "nuxt": "^3.11.0",
+    "pinia": "^2.1.7",
+    "postcss-custom-properties": "^13.3.10",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4"
+  }
+}
